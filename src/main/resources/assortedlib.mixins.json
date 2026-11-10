@@ -1,0 +1,29 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_21",
+  "package": "com.grim3212.assorted.lib.mixin",
+  "mixins": [
+    "block.BlockMixin",
+    "block.BushBlockMixin",
+    "block.CactusBlockMixin",
+    "block.CropBlockMixin",
+    "block.DeadBushBlockMixin",
+    "block.MushroomBlockMixin",
+    "block.NetherWartBlockMixin",
+    "block.StemBlockMixin",
+    "block.SugarCaneBlockMixin",
+    "entity.EntityAccessor",
+    "item.ItemStackMixin",
+    "world.level.MonsterRoomFeatureAccessor"
+  ],
+  "client": [
+    "client.AccessorBlockModel",
+    "client.AccessorMinecraft",
+    "client.AccessorModelBakery",
+    "client.particle.ParticleEngineMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

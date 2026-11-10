@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_21",
+  "package": "com.grim3212.assorted.lib.mixin",
+  "mixins": [
+    "item.enchantment.IItemEnchantmentConditionMixin"
+  ],
+  "client": [
+    "client.model.ModelDataManagerMixin",
+    "client.rendering.BlockEntityWithoutLevelRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
